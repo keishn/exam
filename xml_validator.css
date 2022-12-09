@@ -1,0 +1,42 @@
+body{
+    background: beige;
+}
+.all {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+}
+
+.formgr {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#invalid {
+    cursor: pointer;
+    background-color: hotpink;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#good-bad{
+    margin-top: 15px;
+    font-family: "Meiryo UI";
+}
+
+#validxml{
+    width: 100vh;
+    height: 50vh;
+}
